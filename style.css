@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container{
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.merah, .kuning, .hijau, .biru, .abu{
+    
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+} 
+
+.merah {
+    background-color: red;
+}
+
+
+.kuning {
+    background-color: yellow;
+}
+
+.hijau {
+    background-color: green;
+}
+
+.biru {
+    background-color: blue;
+}
+
+.abu {
+    background-color: grey;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
